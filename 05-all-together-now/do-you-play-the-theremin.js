@@ -8,6 +8,14 @@
 // doYouPlayTheTheremin('Scott'); // => true
 
 // YOUR CODE BELOW
-
+function doYouPlayTheTheremin(string) {
+    let newString = string.toLowerCase();
+    if (newString[0] === "s") {
+        return true;
+    }
+    else {
+        return false;
+    }
+}
 // Do not change the code below
 module.exports = { doYouPlayTheTheremin };

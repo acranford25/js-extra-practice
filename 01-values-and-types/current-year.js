@@ -8,3 +8,4 @@ EX: 2000 + 18 - 2 * 1;
 */
 
 // YOUR CODE BELOW
+let currentYear = (1000 * 2) + 30 - 7;

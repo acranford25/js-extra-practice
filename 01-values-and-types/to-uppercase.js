@@ -6,3 +6,5 @@ EX: "apples".toUpperCase() OUTPUT: "APPLES"
 */
 
 // YOUR CODE BELOW
+let myString = "this is another string.";
+let myUpperCaseString = myString.toUpperCase();

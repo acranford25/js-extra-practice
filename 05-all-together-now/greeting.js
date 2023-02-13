@@ -6,6 +6,13 @@
 // greeting(); // => Hello!
 
 // YOUR CODE BELOW
-
+function greeting(name) {
+    if (name) {
+        return `Hello ${name}!`;
+    }
+    else {
+        return 'Hello!';
+    }
+}
 // Do not change the code below
 module.exports = { greeting };
